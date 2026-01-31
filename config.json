@@ -1,0 +1,14 @@
+{
+  "default_settings": {
+    "threads": 100,
+    "timeout": 2,
+    "packet_size": 1024,
+    "user_agents_file": "user_agents.txt"
+  },
+  "attack_methods": {
+    "tcp": true,
+    "udp": true,
+    "http": true,
+    "slowloris": true
+  }
+}
